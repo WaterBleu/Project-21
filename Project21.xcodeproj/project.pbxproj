@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3947D7D09EB4246B99045AD5 /* Pods_Project21.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ECB38BD04FB69A516B00DDB /* Pods_Project21.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BD1CC4B91B7AA39600F340A6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1CC4B81B7AA39600F340A6 /* MainViewController.swift */; };
+		BD1CC4BC1B7AA4C800F340A6 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1CC4BA1B7AA4C800F340A6 /* SCLAlertView.framework */; };
+		BD1CC4C21B7AC9BA00F340A6 /* KDCircularProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1CC4C11B7AC9BA00F340A6 /* KDCircularProgress.framework */; };
+		BD1CC4C41B7BBBF600F340A6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1CC4C31B7BBBF600F340A6 /* Bolts.framework */; };
+		BD1CC4C61B7BBBFA00F340A6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1CC4C51B7BBBFA00F340A6 /* Parse.framework */; };
+		BD1CC4CA1B7BBCC000F340A6 /* HabitObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1CC4C91B7BBCC000F340A6 /* HabitObject.swift */; };
+		BD1CC4CE1B7BD56400F340A6 /* CreateHabitFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1CC4CD1B7BD56400F340A6 /* CreateHabitFormViewController.swift */; };
+		BD1CC4D01B7BD57300F340A6 /* XLForm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1CC4CF1B7BD57300F340A6 /* XLForm.framework */; };
+		BD1CC4D91B7BE22400F340A6 /* XLFormWeekDaysCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1CC4D71B7BE22400F340A6 /* XLFormWeekDaysCell.swift */; };
+		BD1CC4DA1B7BE22400F340A6 /* XLFormWeekDaysCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1CC4D81B7BE22400F340A6 /* XLFormWeekDaysCell.xib */; };
+		BD3F41F31B8400B400846FDE /* ActionButtonAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3F41F21B8400B400846FDE /* ActionButtonAction.swift */; };
+		BD3F41F51B84013400846FDE /* ActionButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3F41F41B84013400846FDE /* ActionButtonItem.swift */; };
 		BDEC8E4A1B79175A00C869EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC8E491B79175A00C869EB /* AppDelegate.swift */; };
-		BDEC8E4C1B79175A00C869EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC8E4B1B79175A00C869EB /* ViewController.swift */; };
+		BDEC8E4C1B79175A00C869EB /* NewHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC8E4B1B79175A00C869EB /* NewHabitViewController.swift */; };
 		BDEC8E4F1B79175A00C869EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEC8E4D1B79175A00C869EB /* Main.storyboard */; };
 		BDEC8E511B79175A00C869EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEC8E501B79175A00C869EB /* Images.xcassets */; };
 		BDEC8E541B79175A00C869EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEC8E521B79175A00C869EB /* LaunchScreen.xib */; };
 		BDEC8E601B79175A00C869EB /* Project21Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC8E5F1B79175A00C869EB /* Project21Tests.swift */; };
+		BDEC8E6A1B7947B900C869EB /* AAShareBubbles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEC8E691B7947B900C869EB /* AAShareBubbles.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ECB38BD04FB69A516B00DDB /* Pods_Project21.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project21.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9A1BCA958DF72854012BAC /* Pods-Project21.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project21.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project21/Pods-Project21.release.xcconfig"; sourceTree = "<group>"; };
+		44E230B35376DC561637F118 /* Pods-Project21.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project21.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project21/Pods-Project21.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1CC4B81B7AA39600F340A6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BD1CC4BA1B7AA4C800F340A6 /* SCLAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCLAlertView.framework; path = "Pods/../build/Debug-iphoneos/SCLAlertView.framework"; sourceTree = "<group>"; };
+		BD1CC4BB1B7AA4C800F340A6 /* UAProgressView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UAProgressView.framework; path = "Pods/../build/Debug-iphoneos/UAProgressView.framework"; sourceTree = "<group>"; };
+		BD1CC4BE1B7ABED400F340A6 /* KYCircularProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KYCircularProgress.framework; path = "Pods/../build/Debug-iphoneos/KYCircularProgress.framework"; sourceTree = "<group>"; };
+		BD1CC4C11B7AC9BA00F340A6 /* KDCircularProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KDCircularProgress.framework; path = "Pods/../build/Debug-iphoneos/KDCircularProgress.framework"; sourceTree = "<group>"; };
+		BD1CC4C31B7BBBF600F340A6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Pods/../build/Debug-iphoneos/Bolts.framework"; sourceTree = "<group>"; };
+		BD1CC4C51B7BBBFA00F340A6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse.framework"; sourceTree = "<group>"; };
+		BD1CC4C91B7BBCC000F340A6 /* HabitObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabitObject.swift; sourceTree = "<group>"; };
+		BD1CC4CD1B7BD56400F340A6 /* CreateHabitFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateHabitFormViewController.swift; sourceTree = "<group>"; };
+		BD1CC4CF1B7BD57300F340A6 /* XLForm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XLForm.framework; path = "Pods/../build/Debug-iphoneos/XLForm.framework"; sourceTree = "<group>"; };
+		BD1CC4D71B7BE22400F340A6 /* XLFormWeekDaysCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XLFormWeekDaysCell.swift; sourceTree = "<group>"; };
+		BD1CC4D81B7BE22400F340A6 /* XLFormWeekDaysCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLFormWeekDaysCell.xib; sourceTree = "<group>"; };
+		BD3F41F21B8400B400846FDE /* ActionButtonAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonAction.swift; sourceTree = "<group>"; };
+		BD3F41F41B84013400846FDE /* ActionButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonItem.swift; sourceTree = "<group>"; };
+		BD6E73CC1B8661AF00D0B53E /* AAShareBubbles.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AAShareBubbles.framework; path = "Pods/../build/Debug-iphoneos/AAShareBubbles.framework"; sourceTree = "<group>"; };
+		BD6E73CD1B8661AF00D0B53E /* ActionButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActionButton.framework; path = "Pods/../build/Debug-iphoneos/ActionButton.framework"; sourceTree = "<group>"; };
+		BD6E73CE1B8661AF00D0B53E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Pods/../build/Debug-iphoneos/Bolts.framework"; sourceTree = "<group>"; };
+		BD6E73CF1B8661AF00D0B53E /* KDCircularProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KDCircularProgress.framework; path = "Pods/../build/Debug-iphoneos/KDCircularProgress.framework"; sourceTree = "<group>"; };
+		BD6E73D01B8661AF00D0B53E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Pods/../build/Debug-iphoneos/Parse.framework"; sourceTree = "<group>"; };
+		BD6E73D11B8661AF00D0B53E /* Pods_Project21.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Project21.framework; path = "Pods/../build/Debug-iphoneos/Pods_Project21.framework"; sourceTree = "<group>"; };
+		BD6E73D21B8661AF00D0B53E /* SCLAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCLAlertView.framework; path = "Pods/../build/Debug-iphoneos/SCLAlertView.framework"; sourceTree = "<group>"; };
+		BD6E73D31B8661AF00D0B53E /* XLForm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XLForm.framework; path = "Pods/../build/Debug-iphoneos/XLForm.framework"; sourceTree = "<group>"; };
 		BDEC8E441B79175A00C869EB /* Project21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEC8E481B79175A00C869EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDEC8E491B79175A00C869EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDEC8E4B1B79175A00C869EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDEC8E4B1B79175A00C869EB /* NewHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitViewController.swift; sourceTree = "<group>"; };
 		BDEC8E4E1B79175A00C869EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDEC8E501B79175A00C869EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDEC8E531B79175A00C869EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BDEC8E591B79175A00C869EB /* Project21Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project21Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEC8E591B79175A00C869EB /* Project21- ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project21- ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEC8E5E1B79175A00C869EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDEC8E5F1B79175A00C869EB /* Project21Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project21Tests.swift; sourceTree = "<group>"; };
+		BDEC8E691B7947B900C869EB /* AAShareBubbles.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AAShareBubbles.framework; path = "Pods/../build/Debug-iphoneos/AAShareBubbles.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +83,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1CC4D01B7BD57300F340A6 /* XLForm.framework in Frameworks */,
+				BD1CC4C61B7BBBFA00F340A6 /* Parse.framework in Frameworks */,
+				BD1CC4C41B7BBBF600F340A6 /* Bolts.framework in Frameworks */,
+				BD1CC4C21B7AC9BA00F340A6 /* KDCircularProgress.framework in Frameworks */,
+				BD1CC4BC1B7AA4C800F340A6 /* SCLAlertView.framework in Frameworks */,
+				BDEC8E6A1B7947B900C869EB /* AAShareBubbles.framework in Frameworks */,
+				3947D7D09EB4246B99045AD5 /* Pods_Project21.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +103,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		105A10C7373F1EF4CD6EDBE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E230B35376DC561637F118 /* Pods-Project21.debug.xcconfig */,
+				0F9A1BCA958DF72854012BAC /* Pods-Project21.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A13A9091873DB4158158B210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E73CC1B8661AF00D0B53E /* AAShareBubbles.framework */,
+				BD6E73CD1B8661AF00D0B53E /* ActionButton.framework */,
+				BD6E73CE1B8661AF00D0B53E /* Bolts.framework */,
+				BD6E73CF1B8661AF00D0B53E /* KDCircularProgress.framework */,
+				BD6E73D01B8661AF00D0B53E /* Parse.framework */,
+				BD6E73D11B8661AF00D0B53E /* Pods_Project21.framework */,
+				BD6E73D21B8661AF00D0B53E /* SCLAlertView.framework */,
+				BD6E73D31B8661AF00D0B53E /* XLForm.framework */,
+				BD1CC4CF1B7BD57300F340A6 /* XLForm.framework */,
+				BD1CC4C51B7BBBFA00F340A6 /* Parse.framework */,
+				BD1CC4C31B7BBBF600F340A6 /* Bolts.framework */,
+				BD1CC4C11B7AC9BA00F340A6 /* KDCircularProgress.framework */,
+				BD1CC4BE1B7ABED400F340A6 /* KYCircularProgress.framework */,
+				BD1CC4BA1B7AA4C800F340A6 /* SCLAlertView.framework */,
+				BD1CC4BB1B7AA4C800F340A6 /* UAProgressView.framework */,
+				BDEC8E691B7947B900C869EB /* AAShareBubbles.framework */,
+				0ECB38BD04FB69A516B00DDB /* Pods_Project21.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1CC4DB1B7BF95800F340A6 /* Weekdays */ = {
+			isa = PBXGroup;
+			children = (
+				BD1CC4D71B7BE22400F340A6 /* XLFormWeekDaysCell.swift */,
+				BD1CC4D81B7BE22400F340A6 /* XLFormWeekDaysCell.xib */,
+			);
+			name = Weekdays;
+			sourceTree = "<group>";
+		};
+		BD3F41F61B84017800846FDE /* ActionButton */ = {
+			isa = PBXGroup;
+			children = (
+				BD3F41F21B8400B400846FDE /* ActionButtonAction.swift */,
+				BD3F41F41B84013400846FDE /* ActionButtonItem.swift */,
+			);
+			name = ActionButton;
+			sourceTree = "<group>";
+		};
 		BDEC8E3B1B79175A00C869EB = {
 			isa = PBXGroup;
 			children = (
 				BDEC8E461B79175A00C869EB /* Project21 */,
 				BDEC8E5C1B79175A00C869EB /* Project21Tests */,
 				BDEC8E451B79175A00C869EB /* Products */,
+				105A10C7373F1EF4CD6EDBE9 /* Pods */,
+				A13A9091873DB4158158B210 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				BDEC8E441B79175A00C869EB /* Project21.app */,
-				BDEC8E591B79175A00C869EB /* Project21Tests.xctest */,
+				BDEC8E591B79175A00C869EB /* Project21- ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +178,14 @@
 			isa = PBXGroup;
 			children = (
 				BDEC8E491B79175A00C869EB /* AppDelegate.swift */,
-				BDEC8E4B1B79175A00C869EB /* ViewController.swift */,
-				BDEC8E4D1B79175A00C869EB /* Main.storyboard */,
+				BDEC8E4B1B79175A00C869EB /* NewHabitViewController.swift */,
+				BD1CC4B81B7AA39600F340A6 /* MainViewController.swift */,
+				BD1CC4C91B7BBCC000F340A6 /* HabitObject.swift */,
+				BD1CC4CD1B7BD56400F340A6 /* CreateHabitFormViewController.swift */,
+				BD3F41F61B84017800846FDE /* ActionButton */,
+				BD1CC4DB1B7BF95800F340A6 /* Weekdays */,
 				BDEC8E501B79175A00C869EB /* Images.xcassets */,
+				BDEC8E4D1B79175A00C869EB /* Main.storyboard */,
 				BDEC8E521B79175A00C869EB /* LaunchScreen.xib */,
 				BDEC8E471B79175A00C869EB /* Supporting Files */,
 			);
@@ -119,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDEC8E631B79175A00C869EB /* Build configuration list for PBXNativeTarget "Project21" */;
 			buildPhases = (
+				C36F52ADCCC4EAA6A3EC1CDA /* Check Pods Manifest.lock */,
 				BDEC8E401B79175A00C869EB /* Sources */,
 				BDEC8E411B79175A00C869EB /* Frameworks */,
 				BDEC8E421B79175A00C869EB /* Resources */,
+				81110920CA903D85B90A056D /* Copy Pods Resources */,
+				9FAC4F49EDEBFBACF2EC3F26 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,9 +240,9 @@
 			productReference = BDEC8E441B79175A00C869EB /* Project21.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BDEC8E581B79175A00C869EB /* Project21Tests */ = {
+		BDEC8E581B79175A00C869EB /* Project21 Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDEC8E661B79175A00C869EB /* Build configuration list for PBXNativeTarget "Project21Tests" */;
+			buildConfigurationList = BDEC8E661B79175A00C869EB /* Build configuration list for PBXNativeTarget "Project21 Test" */;
 			buildPhases = (
 				BDEC8E551B79175A00C869EB /* Sources */,
 				BDEC8E561B79175A00C869EB /* Frameworks */,
@@ -145,9 +253,9 @@
 			dependencies = (
 				BDEC8E5B1B79175A00C869EB /* PBXTargetDependency */,
 			);
-			name = Project21Tests;
+			name = "Project21 Test";
 			productName = Project21Tests;
-			productReference = BDEC8E591B79175A00C869EB /* Project21Tests.xctest */;
+			productReference = BDEC8E591B79175A00C869EB /* Project21- ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +290,7 @@
 			projectRoot = "";
 			targets = (
 				BDEC8E431B79175A00C869EB /* Project21 */,
-				BDEC8E581B79175A00C869EB /* Project21Tests */,
+				BDEC8E581B79175A00C869EB /* Project21 Test */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1CC4DA1B7BE22400F340A6 /* XLFormWeekDaysCell.xib in Resources */,
 				BDEC8E4F1B79175A00C869EB /* Main.storyboard in Resources */,
 				BDEC8E541B79175A00C869EB /* LaunchScreen.xib in Resources */,
 				BDEC8E511B79175A00C869EB /* Images.xcassets in Resources */,
@@ -207,13 +316,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81110920CA903D85B90A056D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Project21/Pods-Project21-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAC4F49EDEBFBACF2EC3F26 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Project21/Pods-Project21-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36F52ADCCC4EAA6A3EC1CDA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDEC8E401B79175A00C869EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDEC8E4C1B79175A00C869EB /* ViewController.swift in Sources */,
+				BD1CC4B91B7AA39600F340A6 /* MainViewController.swift in Sources */,
+				BDEC8E4C1B79175A00C869EB /* NewHabitViewController.swift in Sources */,
+				BD3F41F31B8400B400846FDE /* ActionButtonAction.swift in Sources */,
+				BD1CC4CE1B7BD56400F340A6 /* CreateHabitFormViewController.swift in Sources */,
 				BDEC8E4A1B79175A00C869EB /* AppDelegate.swift in Sources */,
+				BD3F41F51B84013400846FDE /* ActionButtonItem.swift in Sources */,
+				BD1CC4D91B7BE22400F340A6 /* XLFormWeekDaysCell.swift in Sources */,
+				BD1CC4CA1B7BBCC000F340A6 /* HabitObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +503,31 @@
 		};
 		BDEC8E641B79175A00C869EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E230B35376DC561637F118 /* Pods-Project21.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Project21/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Project21;
 			};
 			name = Debug;
 		};
 		BDEC8E651B79175A00C869EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9A1BCA958DF72854012BAC /* Pods-Project21.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Project21/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Project21;
 			};
 			name = Release;
 		};
@@ -372,7 +545,7 @@
 				);
 				INFOPLIST_FILE = Project21Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Project21- ExampleTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project21.app/Project21";
 			};
 			name = Debug;
@@ -387,7 +560,7 @@
 				);
 				INFOPLIST_FILE = Project21Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Project21- ExampleTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project21.app/Project21";
 			};
 			name = Release;
@@ -411,14 +584,16 @@
 				BDEC8E651B79175A00C869EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BDEC8E661B79175A00C869EB /* Build configuration list for PBXNativeTarget "Project21Tests" */ = {
+		BDEC8E661B79175A00C869EB /* Build configuration list for PBXNativeTarget "Project21 Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDEC8E671B79175A00C869EB /* Debug */,
 				BDEC8E681B79175A00C869EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
