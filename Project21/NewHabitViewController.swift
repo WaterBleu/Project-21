@@ -8,6 +8,7 @@
 
 import UIKit
 import AAShareBubbles
+import SCLAlertView
 
 class NewHabitViewController: UIViewController, AAShareBubblesDelegate {
     
@@ -51,10 +52,10 @@ class NewHabitViewController: UIViewController, AAShareBubblesDelegate {
             let vc = CreateHabitFormViewController(nibName: nil, bundle: nil)
             let navControl = UINavigationController(rootViewController: vc)
             self.presentViewController(navControl, animated: true, completion: nil)
-        case 101:
-            println("in Private Community")
-        case 102:
-            println("in Public Community")
+        case 101,
+        102:
+            SCLAlertView().showInfo("Under Construction!", subTitle: "This feature is being implemented please proceed to personal habit function", closeButtonTitle: "Ok")
+        
         default:
             println("Inside default")
         }
