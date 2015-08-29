@@ -72,7 +72,7 @@
 		BDEC8E4E1B79175A00C869EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDEC8E501B79175A00C869EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BDEC8E531B79175A00C869EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		BDEC8E591B79175A00C869EB /* Project21- ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project21- ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEC8E591B79175A00C869EB /* Project21Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project21Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEC8E5E1B79175A00C869EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDEC8E5F1B79175A00C869EB /* Project21Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project21Tests.swift; sourceTree = "<group>"; };
 		BDEC8E691B7947B900C869EB /* AAShareBubbles.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AAShareBubbles.framework; path = "Pods/../build/Debug-iphoneos/AAShareBubbles.framework"; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				BDEC8E441B79175A00C869EB /* Project21.app */,
-				BDEC8E591B79175A00C869EB /* Project21- ExampleTests.xctest */,
+				BDEC8E591B79175A00C869EB /* Project21Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 			);
 			name = "Project21 Test";
 			productName = Project21Tests;
-			productReference = BDEC8E591B79175A00C869EB /* Project21- ExampleTests.xctest */;
+			productReference = BDEC8E591B79175A00C869EB /* Project21Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -545,7 +545,7 @@
 				);
 				INFOPLIST_FILE = Project21Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Project21- ExampleTests";
+				PRODUCT_NAME = Project21Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project21.app/Project21";
 			};
 			name = Debug;
@@ -560,7 +560,7 @@
 				);
 				INFOPLIST_FILE = Project21Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Project21- ExampleTests";
+				PRODUCT_NAME = Project21Tests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project21.app/Project21";
 			};
 			name = Release;
