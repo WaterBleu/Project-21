@@ -1,0 +1,37 @@
+PODS:
+  - AAShareBubbles (1.1.0)
+  - ActionButton (0.1.2)
+  - Bolts/Tasks (1.2.0)
+  - KDCircularProgress (1.1)
+  - Parse (1.8.0):
+    - Bolts/Tasks (>= 1.2.0)
+  - SCLAlertView (0.4.1)
+  - XLForm (3.0.2)
+
+DEPENDENCIES:
+  - AAShareBubbles (from `https://github.com/WaterBleu/AAShareBubbles.git`)
+  - ActionButton
+  - KDCircularProgress
+  - Parse
+  - SCLAlertView
+  - XLForm
+
+EXTERNAL SOURCES:
+  AAShareBubbles:
+    :git: https://github.com/WaterBleu/AAShareBubbles.git
+
+CHECKOUT OPTIONS:
+  AAShareBubbles:
+    :commit: d217642314a1ba94d3b3c8675c99c303931a6b07
+    :git: https://github.com/WaterBleu/AAShareBubbles.git
+
+SPEC CHECKSUMS:
+  AAShareBubbles: 0dff9002af6ed64048f6941084ef48896ed60543
+  ActionButton: a9396194eee90f4a0ec1cc4ee7bc419d916abdc1
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  KDCircularProgress: 1cd70f4cddc053c61a519e3219ea0ab1fe3049bd
+  Parse: 6ea05adb378fbfd6f8726ab67ef74330d96fc903
+  SCLAlertView: 9e60641edd9efcfc6d58227558eb7b03678dbcf3
+  XLForm: 7817ce29f3f259186e837bb7309ac7e5b7e9b883
+
+COCOAPODS: 0.38.2
