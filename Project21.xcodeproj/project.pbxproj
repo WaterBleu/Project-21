@@ -240,9 +240,9 @@
 			productReference = BDEC8E441B79175A00C869EB /* Project21.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BDEC8E581B79175A00C869EB /* Project21 Test */ = {
+		BDEC8E581B79175A00C869EB /* Project21Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDEC8E661B79175A00C869EB /* Build configuration list for PBXNativeTarget "Project21 Test" */;
+			buildConfigurationList = BDEC8E661B79175A00C869EB /* Build configuration list for PBXNativeTarget "Project21Tests" */;
 			buildPhases = (
 				BDEC8E551B79175A00C869EB /* Sources */,
 				BDEC8E561B79175A00C869EB /* Frameworks */,
@@ -253,7 +253,7 @@
 			dependencies = (
 				BDEC8E5B1B79175A00C869EB /* PBXTargetDependency */,
 			);
-			name = "Project21 Test";
+			name = Project21Tests;
 			productName = Project21Tests;
 			productReference = BDEC8E591B79175A00C869EB /* Project21Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -290,7 +290,7 @@
 			projectRoot = "";
 			targets = (
 				BDEC8E431B79175A00C869EB /* Project21 */,
-				BDEC8E581B79175A00C869EB /* Project21 Test */,
+				BDEC8E581B79175A00C869EB /* Project21Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDEC8E661B79175A00C869EB /* Build configuration list for PBXNativeTarget "Project21 Test" */ = {
+		BDEC8E661B79175A00C869EB /* Build configuration list for PBXNativeTarget "Project21Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDEC8E671B79175A00C869EB /* Debug */,
